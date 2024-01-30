@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T19:51:36.225Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="V7z0WBPmncLmlfCMHoCs" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T19:51:57.927Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="o7Cfpfi0hzx0cdQYXzbx" version="23.0.2" type="github">
   <diagram name="Page-1" id="7LeI7PBuQN5yrm9MphKJ">
     <mxGraphModel dx="2522" dy="1407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
         <mxCell id="syKPwsfsgFEQ72jQ-zuU-22" value="Local Clock &lt;br&gt;Out" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="syKPwsfsgFEQ72jQ-zuU-1" vertex="1">
           <mxGeometry x="220" y="290" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="syKPwsfsgFEQ72jQ-zuU-14" value="Synchronize" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="syKPwsfsgFEQ72jQ-zuU-1" vertex="1">
+        <mxCell id="syKPwsfsgFEQ72jQ-zuU-14" value="Synchronizer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="syKPwsfsgFEQ72jQ-zuU-1" vertex="1">
           <mxGeometry x="80" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="syKPwsfsgFEQ72jQ-zuU-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF33FF;" parent="syKPwsfsgFEQ72jQ-zuU-1" source="syKPwsfsgFEQ72jQ-zuU-29" target="syKPwsfsgFEQ72jQ-zuU-14" edge="1">
