@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T18:34:48.977Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="mqC2_6BWCCbmpeKE-QRS" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T23:24:36.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JFHQ5T8mhLOJ-E_qKM6R" version="24.3.0" type="github">
   <diagram name="Page-1" id="LWEZlGGbSrIIkCykrBxC">
     <mxGraphModel dx="2074" dy="1174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
           <mxGeometry x="220" y="352" width="420" height="10" as="geometry" />
         </mxCell>
         <mxCell id="NNJ1faXIut8Of5q7evjf-24" value="Abrt/&lt;br&gt;Prmt" style="endArrow=classic;html=1;rounded=0;exitX=0.43;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NNJ1faXIut8Of5q7evjf-47" edge="1">
-          <mxGeometry x="-0.7083" y="-2" width="50" height="50" relative="1" as="geometry">
+          <mxGeometry x="-0.3333" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="670" as="sourcePoint" />
             <mxPoint x="592" y="470" as="targetPoint" />
             <mxPoint as="offset" />
@@ -130,18 +130,8 @@
         <mxCell id="NNJ1faXIut8Of5q7evjf-47" value="Repeaters" style="rounded=0;whiteSpace=wrap;html=1;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.14,0,0,0,0],[0.25,1,0,0,0],[0.29,0,0,0,0],[0.43,0,0,0,0],[0.5,1,0,0,0],[0.57,0,0,0,0],[0.71,0,0,0,0],[0.75,1,0,0,0],[0.86,0,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
           <mxGeometry x="540" y="770" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NNJ1faXIut8Of5q7evjf-50" value="What?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="720" width="80" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="NNJ1faXIut8Of5q7evjf-51" value="NOTES:&amp;nbsp;&lt;br&gt;Beam synch is well within the MLVS spec (&amp;lt;100-200 MHz)&lt;br&gt;&lt;br&gt;Type 1: with no-one transmitting, receivers could be very noisy, because it has a 0V common voltage. Good for clocks.&lt;br&gt;Type 2: has a slightly positive common voltage. Good for others.&lt;br&gt;&lt;br&gt;Permits will require more than just a simple &quot;pull the line low&quot; strategy.&amp;nbsp; Implementing the clock as a positive One possibility is that each transmitter is sent a periodic pulse that the receiver can use to determine if everyone is alive&lt;br&gt;&lt;br&gt;TLG is a computer" style="shape=note;size=20;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="520" width="300" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="NNJ1faXIut8Of5q7evjf-9" value="Evt&lt;br&gt;bus" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="NNJ1faXIut8Of5q7evjf-50" edge="1">
-          <mxGeometry x="-0.5625" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="710.16" y="703" as="sourcePoint" />
-            <mxPoint x="720" y="430" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="40" y="520" width="300" height="240" as="geometry" />
         </mxCell>
         <mxCell id="NNJ1faXIut8Of5q7evjf-53" value="TLG" style="rounded=0;whiteSpace=wrap;html=1;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.14,0,0,0,0],[0.25,1,0,0,0],[0.29,0,0,0,0],[0.43,0,0,0,0],[0.5,1,0,0,0],[0.57,0,0,0,0],[0.71,0,0,0,0],[0.75,1,0,0,0],[0.86,0,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
           <mxGeometry x="670" y="900" width="70" height="40" as="geometry" />
@@ -161,10 +151,25 @@
           <mxGeometry x="770" y="420" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h7kvZbICp2aqLXOeY_oO-1" value="Thoughts on ACLK distribution:&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Proposal for MTCA developments in instrumentation is to have ACLK broken into 8 parallel streams and distributed over the 8 single-ended MLVDS lanes of the the backplane. ACLK is 1.3 GHz line rate, manchester encoded, I think.&amp;nbsp; This means each line is running at 162.5 MHz.&amp;nbsp; However, I think there is a factor of two in the bandwidth that is there just to keep the line balanced.&amp;nbsp; Maybe this isn&#39;t needed for backplane distribution, bringing the per-line speed down to ~80 MHz, or requiring only 4 LVDS lines.&amp;nbsp; The latter leaves enough room for the permit, MDAT, and beam synch clocks, which are all slow enough to work well on these lines.&amp;nbsp;&lt;br&gt;&lt;br&gt;Additionally, one can recover the clock in the timing card, distribute to to TCLKA or TCLKB and then allow each AMC to use it to clock the bits on the MLVDS lines&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="790" width="350" height="250" as="geometry" />
+          <mxGeometry x="40" y="800" width="350" height="250" as="geometry" />
         </mxCell>
         <mxCell id="h7kvZbICp2aqLXOeY_oO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.892;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h7kvZbICp2aqLXOeY_oO-4" target="NNJ1faXIut8Of5q7evjf-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h7kvZbICp2aqLXOeY_oO-6" value="To&amp;nbsp;&lt;br&gt;Other&amp;nbsp;&lt;br&gt;Crates" style="rounded=0;whiteSpace=wrap;html=1;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.14,0,0,0,0],[0.25,1,0,0,0],[0.29,0,0,0,0],[0.43,0,0,0,0],[0.5,1,0,0,0],[0.57,0,0,0,0],[0.71,0,0,0,0],[0.75,1,0,0,0],[0.86,0,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" vertex="1" parent="1">
+          <mxGeometry x="780" y="500" width="60" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="h7kvZbICp2aqLXOeY_oO-7" value="Fermilink" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="NNJ1faXIut8Of5q7evjf-1" target="h7kvZbICp2aqLXOeY_oO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h7kvZbICp2aqLXOeY_oO-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="606" as="sourcePoint" />
+            <mxPoint x="752" y="586" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h7kvZbICp2aqLXOeY_oO-10" value="4x" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="600" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
